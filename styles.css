@@ -6,6 +6,61 @@
 --White: hsl(0, 0%, 100%);
 }
 
+* {
+    border: 1px solid red;
+    background-color: hsla(100, 100%, 50%, 0.1)
+}
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    width: 50%;
+
+}
+
+.ratings {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%
+}
+
+.bottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-top {
+    display: flex;
 }
